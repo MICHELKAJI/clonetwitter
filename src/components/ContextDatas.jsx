@@ -19,7 +19,7 @@ export function ContextProvider({ children }) {
       const {data} =await axios.get("https://twitter-clone-api-c1-michelkaji.onrender.com/tweet/users");
       console.log(data);
      
-        setTweetData(data.reverse());
+        setTweetData(data);
         };
 
        
